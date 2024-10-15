@@ -1,4 +1,98 @@
-<script async src="https://js.stripe.com/v3/pricing-table.js"></script>
-<stripe-pricing-table pricing-table-id="prctbl_1Q9pJcGvJV37S2NqMr40uFch"
-publishable-key="pk_live_51P8B9cGvJV37S2NqHXoHfHiv5IHqYxACw6AFSPcqEc84MA9iotxrVfgYxJj48kbjfJbvGPC5MUFeIFCZ65TBsE1r00cthefWCs">
-</stripe-pricing-table>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Preços Quality Ambulâncias</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .header {
+            background-color: #ff540e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .pricing-table {
+            display: flex;
+            justify-content: center;
+            padding: 50px 0;
+        }
+        .price-column {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+            margin: 0 20px;
+            padding: 20px;
+            text-align: center;
+            width: 300px;
+        }
+        .price-column h2 {
+            color: #2d2379;
+        }
+        .price-column p {
+            font-size: 18px;
+        }
+        .price-column .price {
+            font-size: 36px;
+            margin: 20px 0;
+        }
+        .price-column .button {
+            background-color: #ff540e;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        .footer {
+            background-color: #2d2379;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Tabela de Preços Quality Ambulâncias</h1>
+    </div>
+
+    <div class="pricing-table">
+        <!-- Coluna 1 -->
+        <div class="price-column">
+            <h2>Plano Básico</h2>
+            <p>Atendimento básico para clínicas e empresas</p>
+            <div class="price">R$150/mês</div>
+            <a href="https://buy.stripe.com/test_..." class="button">Assinar Agora</a>
+        </div>
+
+        <!-- Coluna 2 -->
+        <div class="price-column">
+            <h2>Plano Avançado</h2>
+            <p>Atendimento completo com suporte 24h</p>
+            <div class="price">R$300/mês</div>
+            <a href="https://buy.stripe.com/test_..." class="button">Assinar Agora</a>
+        </div>
+
+        <!-- Coluna 3 -->
+        <div class="price-column">
+            <h2>Plano Premium</h2>
+            <p>Plano personalizado com atendimento preferencial</p>
+            <div class="price">R$500/mês</div>
+            <a href="https://buy.stripe.com/test_..." class="button">Assinar Agora</a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Quality Ambulâncias - Todos os direitos reservados</p>
+    </div>
+
+</body>
+</html>
